@@ -1,0 +1,29 @@
+.ql-toolbar.ql-snow {
+  border: none !important;
+  border-bottom: 1px solid #0b60b010 !important;
+  /* padding: 20px; */
+}
+
+.ql-container.ql-snow {
+  border: none !important;
+  padding: 20px;
+  color: #51697f;
+  bg: white;
+}
+.quill-container {
+  border: 1px solid #0b60b010 !important;
+  border-radius: 6px !important;
+  width: 100%;
+  max-width: 900px;
+}
+.ql-picker-options {
+  border: 1px solid #0b60b010 !important;
+  border-radius: 6px !important;
+}
+.ql-stroke {
+  stroke: grey;
+}
+
+.ql-snow.ql-toolbar button {
+  opacity: 60%;
+}

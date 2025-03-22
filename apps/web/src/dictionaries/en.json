@@ -1,0 +1,240 @@
+{
+  "common": {
+    "ctas": {
+      "read_more": "Read more"
+    },
+    "footer": {
+      "slogan": "A mineral for you, a beauty for the world",
+      "contact_links": {
+        "title": "Contact links"
+      },
+      "contact_us": {
+        "title": "Contact us"
+      }
+    }
+  },
+  "global_layout": {
+    "navigation": {
+      "links": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "careers": "Admissions",
+        "gallery": "Gallery",
+        "our_team": "Our team",
+        "blog": "News and Stories",
+        "contact": "Contact us"
+      },
+      "buttons": {
+        "contact_us": "Contact us"
+      }
+    },
+    "footer": {
+      "subtitle_text": "Lorem ipsum dolor sit amet"
+    }
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "ctas": {
+          "contact_us": "Contact us",
+          "watch_yt": "Explore our programs"
+        }
+      },
+      "trusted_companies": {
+        "title": "Our Partners",
+        "subtitle": "We collaborate with leading organizations worldwide to deliver excellence in administrative training"
+      },
+      "about_section_one": {
+        "title": "Learn About HCA",
+        "subtitle": "Discover excellence in administrative education",
+        "suptitle": "Our Institution",
+        "content": "HCA International is a premier educational institution dedicated to providing practical, results-oriented training in administration and management. Based on L. Ron Hubbard's proven administrative technology, we equip students with real-world skills needed for success in today's business environment. Our programs combine theoretical knowledge with hands-on application, ensuring graduates are prepared to make immediate contributions in their careers."
+      },
+      "about_section_two": {
+        "title": "Our Approach",
+        "subtitle": "Experience our unique educational methodology",
+        "suptitle": "Educational Excellence",
+        "content": "At HCA International, we believe in learning by doing. Our educational approach combines classroom instruction with practical application, allowing students to master administrative skills through real-world experience. We focus on developing competent, confident administrators who can effectively manage any aspect of an organization. Our curriculum is designed to produce graduates who are ready to take on leadership roles and drive organizational success."
+      },
+      "products": {
+        "title": "Our mineral products",
+        "subtitle": "We aim at client's satisfaction, we mine productions that our clients love",
+        "suptitle": "Minerals"
+      },
+      "reviews": {
+        "title": "Student Success Stories",
+        "subtitle": "Hear from our graduates about their HCA experience",
+        "suptitle": "Testimonials"
+      },
+      "happy_clients": {
+        "title": "Graduate Achievements",
+        "subtitle": "See how our alumni are making an impact in organizations worldwide",
+        "suptitle": "Success Stories"
+      },
+      "subscribe_section": {
+        "title": "Subscribe to our newsletter",
+        "subtitle": "Never miss an update, subscribe to our e-mail newsletter.",
+        "suptitle": "Newsletter",
+        "sub_success": {
+          "title": "Thanks for subscribing",
+          "subtitle": "Ne manquez jamais l'actualité de hcakigali  et de l'ensemble de l'industrie minière, abonnez-vous à notre newsletter e-mail.",
+          "suptitle": "Newsletter"
+        },
+        "sub_form": {
+          "email": {
+            "label": "Email address"
+          },
+          "full_name": {
+            "label": "Full name"
+          },
+          "cta": "Subscribe"
+        }
+      }
+    },
+    "about": {
+      "page_title": "About us",
+      "suptitle": "About hcakigali",
+      "subtitle": "Learn more about hcakigali, our team, our corporate strategy and much more",
+      "board_of_directors": {
+        "title": "Board of directors",
+        "subtitle": "The persons  directing all the operations run by the company"
+      },
+      "management_team": {
+        "title": "Management team",
+        "subtitle": "The team managing hcakigali's resources"
+      },
+      "aim_cards": {
+        "vision": {
+          "title": "Our Vision",
+          "description": "To be the world's leading institution in administrative education, creating competent leaders who drive organizational success through the application of L. Ron Hubbard's administrative technology."
+        },
+        "mission": {
+          "title": "Our Mission",
+          "description": "To provide practical, results-oriented administrative training that empowers individuals to create positive change in organizations and society through effective management and leadership."
+        },
+        "values": {
+          "title": "Our Values",
+          "description": "Practical Application: We emphasize hands-on learning\nIntegrity: We maintain high ethical standards\nExcellence: We strive for the highest quality in education\nEmpowerment: We build confident, capable administrators"
+        }
+      }
+    },
+    "services": {
+      "page_title": "Our services",
+      "suptitle": "What we offer",
+      "subtitle": "Us hcakigali, We provide all mining services to our clients, we swing in our client's way"
+    },
+    "careers": {
+      "page_title": "Join HCA Kigali",
+      "subtitle": "We're consistent towards our mission. We are also open for anyone who wants to join us",
+      "suptitle": "ADMISSION",
+      "values_section": {
+        "title": "Why Choose Us",
+        "subtitle": "Our educational principles that shape future leaders",
+        "suptitle": "Admissions",
+        "transparency": {
+          "title": "Practical Learning",
+          "description": "Our courses combine theoretical knowledge with hands-on application, ensuring you gain real-world skills."
+        },
+        "focus": {
+          "title": "Individual Attention",
+          "description": "Small class sizes and personalized mentoring ensure each student receives the attention they need to succeed."
+        },
+        "g_o": {
+          "title": "Career Focused",
+          "description": "Our programs are designed to prepare you for immediate contribution in your chosen administrative career path."
+        },
+        "c_c": {
+          "title": "Global Network",
+          "description": "Join a worldwide community of administrative professionals and benefit from international opportunities."
+        }
+      },
+      "open_positions": {
+        "title": "Available Programs",
+        "subtitle": "Explore our range of administrative courses and find your path"
+      },
+      "application_process": {
+        "title": "Application Process",
+        "subtitle": "Follow these steps to begin your journey with HCA Kigali",
+        "suptitle": "ADMISSIONS PROCESS",
+        "1": {
+          "title": "Submit Application",
+          "description": "Complete our online application form with your personal details and educational background"
+        },
+        "2": {
+          "title": "Assessment",
+          "description": "Your application will be reviewed by our admissions team, who may request additional documents"
+        },
+        "3": {
+          "title": "Enrollment",
+          "description": "Upon acceptance, you'll receive enrollment instructions and details about orientation"
+        }
+      },
+      "apply_form": {
+        "title": "Apply for this program",
+        "subtitle": "If you are interested in this program, please fill in the form below to apply",
+        "f_name": {
+          "label": "First name"
+        },
+        "l_name": {
+          "label": "Last name"
+        },
+        "email": {
+          "label": "Email address"
+        },
+        "phone_number": {
+          "label": "Phone number"
+        },
+        "qualifications": {
+          "label": "Educational Qualifications",
+          "placeholder": "Please list your recent qualifications, educational background, and any relevant certifications or training"
+        },
+        "cta": "Submit application",
+        "on_success": {
+          "title": "Application sent",
+          "description": "Thank you for applying. We will contact you soon with next steps."
+        }
+      }
+    },
+    "contact_us": {
+      "title": "Contact us",
+      "suptitle": "Tell us something",
+      "subtitle": "Get in touch with us for any questions, feedback, or support. We're here to help!",
+      "form": {
+        "title": "Write us",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        "f_name": {
+          "label": "Full name"
+        },
+        "email": {
+          "label": "Email address"
+        },
+        "message": {
+          "label": "Your message",
+          "placeholder": "Tell  us what you think"
+        },
+        "cta": "Submit",
+        "on_success": {
+          "title": "Message sent successfully !",
+          "description": "Your message has been sent successfully and our team in charge in work to get back to you as soon as possible.  Thanks for contact us indeed. ",
+          "cta": "Send another message"
+        }
+      }
+    },
+    "blog": {
+      "tags": {
+        "latest_release": "Latest release",
+        "from_newsletter": "From newsletter"
+      },
+      "more_blogs": {
+        "title": "All blogs",
+        "subtitle": "All blogs from our customers"
+      }
+    },
+    "gallery": {
+      "title": "Our Gallery",
+      "subtitle": "Visit  hcakigali's stock of images",
+      "suptitle": "Photos"
+    }
+  }
+}

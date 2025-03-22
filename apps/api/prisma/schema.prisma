@@ -1,0 +1,158 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Admin {
+  id                String    @id @default(uuid()) @map("_id")
+  email             String    @unique
+  password          String
+  name              String
+  profile_picture   String?
+  refresh_token     String?
+  verification_code String
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  writings          Writing[]
+}
+
+model GalleryPhoto {
+  id          String  @id @default(uuid()) @map("_id")
+  title       String  @unique
+  description String?
+  image       String
+}
+
+model Visit {
+  id        String   @id @default(uuid()) @map("_id")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  location  String
+}
+
+model Writing {
+  id              String      @id @default(uuid()) @map("_id")
+  thumbnail_image String
+  title           String
+  description     String
+  author          Admin       @relation(fields: [authorId], references: [id])
+  authorId        String
+  reads           Int         @default(0)
+  content         String
+  writingType     WritingType
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+  isReleased      Boolean     @default(false)
+  releaseDate     DateTime?
+}
+
+model NewsletterSubscriber {
+  id        String   @id @default(uuid()) @map("_id")
+  email     String   @unique
+  full_name String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Job {
+  id           String           @id @default(uuid()) @map("_id")
+  title        String
+  type         JobType
+  location     String
+  isOpen       Boolean          @default(false)
+  description  String
+  createdAt    DateTime         @default(now())
+  updatedAt    DateTime         @updatedAt
+  applications JobApplication[]
+}
+
+model JobApplication {
+  id           String   @id @default(uuid()) @map("_id")
+  email        String
+  job          Job      @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  jobId        String
+  first_name   String
+  last_name    String
+  phone_number String
+  cover_letter String
+  resume       String
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model HomePageSlider {
+  id               String   @id @default(uuid()) @map("_id")
+  background_image String
+  title            String
+  description      String
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}
+
+model Review {
+  id               String   @id @default(uuid()) @map("_id")
+  reviewer_company String
+  reviewer_name    String
+  reviewer_image   String
+  review_message   String
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}
+
+model PartnerCompany {
+  id              String   @id @default(uuid()) @map("_id")
+  company_logo    String
+  company_name    String
+  company_website String
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model Official {
+  id              String                 @id @default(uuid()) @map("_id")
+  full_name       String
+  role            String
+  classification  OfficialClassification
+  profile_picture String
+  createdAt       DateTime               @default(now())
+  updatedAt       DateTime               @updatedAt
+}
+
+model Service {
+  id                String   @id @default(uuid()) @map("_id")
+  title             String
+  description       String
+  descriptive_image String
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+}
+
+model SeoKeyword {
+  id        String   @id @default(uuid()) @map("_id")
+  word      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+enum OfficialClassification {
+  BOARD_MEMBER
+  MANAGER
+}
+
+enum WritingType {
+  NEWSLETTER
+  BLOG
+}
+
+enum JobType {
+  UNDERGRADUATE
+  POSTGRADUATE
+  DOCTORATE
+}

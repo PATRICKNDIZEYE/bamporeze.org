@@ -1,0 +1,29 @@
+preview_div h3 {
+  font-size: 18px !important;
+  color: #32414f !important;
+}
+
+#preview_div h2 {
+  font-size: 14px !important;
+  color: #232d37 !important;
+}
+
+#preview_div h1 {
+  font-size: 20px !important;
+  color: #0a142f !important;
+}
+#preview_div ul {
+  padding: 14px !important;
+  list-style-type: disc;
+}
+
+#preview_div a {
+  color: #0b60b0 !important;
+}
+#preview_div a:hover {
+  text-decoration: underline;
+}
+* {
+  line-height: 1.5;
+  color: #51697f;
+}

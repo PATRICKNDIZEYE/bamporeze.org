@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+.shadow-1 {
+  box-shadow: 0 0 6px 50px #d4dce120;
+}
+
+.shadowed {
+  box-shadow: 0 0px 10px #d4dce140;
+}
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee-animation 2s linear infinite;
+}
+
+@keyframes marquee-animation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hooverable-card {
+  transition: color 1s;
+  transition: background-color 1s;
+}
+
+.hooverable-card:hover {
+  background-color: #0b60b0;
+  color: white;
+
+  .hv-text {
+    color: white;
+  }
+  .hv-subtext {
+    color: white;
+    opacity: 80%;
+  }
+}

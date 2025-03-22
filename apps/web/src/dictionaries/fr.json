@@ -1,0 +1,240 @@
+{
+  "common": {
+    "ctas": {
+      "read_more": "En savoir plus"
+    },
+    "footer": {
+      "slogan": "Un minéral pour vous, une beauté pour le monde",
+      "contact_links": {
+        "title": "Les Pages"
+      },
+      "contact_us": {
+        "title": "Contactez-nous"
+      }
+    }
+  },
+  "global_layout": {
+    "navigation": {
+      "links": {
+        "home": "Accueil",
+        "about": "À propos",
+        "services": "Services",
+        "careers": "Carrières",
+        "gallery": "Galerie",
+        "our_team": "Notre équipe",
+        "blog": "News et histoires",
+        "contact": "Contactez-nous"
+      },
+      "buttons": {
+        "contact_us": "Contactez-nous"
+      }
+    },
+    "footer": {
+      "subtitle_text": "Lorem ipsum dolor sit amet"
+    }
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "ctas": {
+          "contact_us": "Contactez-nous",
+          "watch_yt": "Découvrir nos programmes"
+        }
+      },
+      "trusted_companies": {
+        "title": "Nos Partenaires",
+        "subtitle": "Nous collaborons avec des organisations leaders mondiales pour offrir l'excellence en formation administrative"
+      },
+      "about_section_one": {
+        "title": "Découvrez HCA",
+        "subtitle": "L'excellence dans l'éducation administrative",
+        "suptitle": "Notre Institution",
+        "content": "HCA International est une institution éducative de premier plan dédiée à la formation pratique et orientée résultats en administration et gestion. Basée sur la technologie administrative éprouvée de L. Ron Hubbard, nous dotons les étudiants des compétences réelles nécessaires pour réussir dans l'environnement professionnel actuel. Nos programmes combinent connaissances théoriques et application pratique, garantissant que nos diplômés sont prêts à apporter des contributions immédiates dans leurs carrières."
+      },
+      "about_section_two": {
+        "title": "Notre Approche",
+        "subtitle": "Découvrez notre méthodologie éducative unique",
+        "suptitle": "Excellence Éducative",
+        "content": "À HCA International, nous croyons en l'apprentissage par la pratique. Notre approche éducative combine l'enseignement en classe avec l'application pratique, permettant aux étudiants de maîtriser les compétences administratives par l'expérience réelle. Nous nous concentrons sur le développement d'administrateurs compétents et confiants qui peuvent gérer efficacement tous les aspects d'une organisation. Notre programme est conçu pour former des diplômés prêts à assumer des rôles de leadership et à conduire le succès organisationnel."
+      },
+      "products": {
+        "title": "Nos produits minéraux",
+        "subtitle": "Nous visons la satisfaction du client, nous exploitons des productions que nos clients adorent",
+        "suptitle": "Minéraux"
+      },
+      "reviews": {
+        "title": "Témoignages d'Étudiants",
+        "subtitle": "Écoutez nos diplômés parler de leur expérience à HCA",
+        "suptitle": "Témoignages"
+      },
+      "happy_clients": {
+        "title": "Réussites des Diplômés",
+        "subtitle": "Découvrez comment nos anciens élèves ont un impact dans les organisations du monde entier",
+        "suptitle": "Histoires de Réussite"
+      },
+      "subscribe_section": {
+        "title": "Abonnez-vous à notre newsletter",
+        "subtitle": "Ne manquez jamais une mise à jour sur hcakigali  et toute l'industrie minière, abonnez-vous à notre newsletter par e-mail.",
+        "suptitle": "Bulletin d'information",
+        "sub_success": {
+          "title": "Merci de vous être abonné",
+          "subtitle": "Ne manquez jamais l'actualité de hcakigali  et de l'ensemble de l'industrie minière, abonnez-vous à notre newsletter par e-mail.",
+          "suptitle": "Bulletin d'information"
+        },
+        "sub_form": {
+          "email": {
+            "label": "Adresse e-mail"
+          },
+          "full_name": {
+            "label": "Nom complet"
+          },
+          "cta": "S'abonner"
+        }
+      }
+    },
+    "about": {
+      "page_title": "À propos de nous",
+      "suptitle": "À propos de hcakigali",
+      "subtitle": "En savoir plus sur hcakigali, notre équipe, notre stratégie d'entreprise et bien plus encore",
+      "board_of_directors": {
+        "title": "Conseil d'administration",
+        "subtitle": "Les personnes qui dirigent toutes les opérations menées par l'entreprise"
+      },
+      "management_team": {
+        "title": "Équipe de direction",
+        "subtitle": "L'équipe qui gère les ressources de hcakigali"
+      },
+      "aim_cards": {
+        "vision": {
+          "title": "Notre Vision",
+          "description": "Être l'institution leader mondiale en éducation administrative, formant des leaders compétents qui conduisent le succès organisationnel grâce à l'application de la technologie administrative de L. Ron Hubbard."
+        },
+        "mission": {
+          "title": "Notre Mission",
+          "description": "Fournir une formation administrative pratique et orientée résultats qui permet aux individus de créer un changement positif dans les organisations et la société grâce à une gestion et un leadership efficaces."
+        },
+        "values": {
+          "title": "Nos Valeurs",
+          "description": "Application Pratique: Nous mettons l'accent sur l'apprentissage pratique\nIntégrité: Nous maintenons des standards éthiques élevés\nExcellence: Nous visons la plus haute qualité en éducation\nAutonomisation: Nous formons des administrateurs confiants et capables"
+        }
+      }
+    },
+    "services": {
+      "page_title": "Nos services",
+      "suptitle": "Ce que nous offrons",
+      "subtitle": "Chez hcakigali, nous fournissons tous les services miniers à nos clients, nous nous adaptons à nos clients"
+    },
+    "careers": {
+      "page_title": "Rejoignez notre mission",
+      "subtitle": "Nous recherchons toujours des personnes talentueuses pour rejoindre notre équipe",
+      "suptitle": "Carrières",
+      "values_section": {
+        "title": "Nos valeurs",
+        "subtitle": "Notre blason qui nous guide où que nous allions",
+        "suptitle": "Carrières",
+        "transparency": {
+          "title": "Transparence",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec accumsan sem, at ultricies lacus. Aenean eu blandit urna. Sed cursus tristique efficitur. "
+        },
+        "focus": {
+          "title": "Concentration",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec accumsan sem, at ultricies lacus. Aenean eu blandit urna. Sed cursus tristique efficitur. "
+        },
+        "g_o": {
+          "title": "Orientation vers l'objectif",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec accumsan sem, at ultricies lacus. Aenean eu blandit urna. Sed cursus tristique efficitur. "
+        },
+        "c_c": {
+          "title": "Service client",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec accumsan sem, at ultricies lacus. Aenean eu blandit urna. Sed cursus tristique efficitur. "
+        }
+      },
+      "open_positions": {
+        "title": "Postes ouverts",
+        "subtitle": "Nous aimerions vous voir dans notre équipe, trouvez où vous correspondre et postulez"
+      },
+      "application_process": {
+        "title": "Processus d'Admission",
+        "subtitle": "Suivez ces étapes pour commencer votre parcours avec HCA Kigali",
+        "suptitle": "PROCESSUS D'ADMISSION",
+        "1": {
+          "title": "Soumission du Dossier",
+          "description": "Complétez notre formulaire de candidature en ligne avec vos coordonnées et parcours éducatif"
+        },
+        "2": {
+          "title": "Évaluation",
+          "description": "Votre candidature sera examinée par notre équipe d'admission, qui pourrait demander des documents supplémentaires"
+        },
+        "3": {
+          "title": "Inscription",
+          "description": "Une fois accepté, vous recevrez les instructions d'inscription et les détails concernant l'orientation"
+        }
+      },
+      "apply_form": {
+        "title": "Postuler pour ce programme",
+        "subtitle": "Si vous êtes intéressé par ce programme, veuillez remplir le formulaire ci-dessous pour postuler",
+        "f_name": {
+          "label": "Prénom"
+        },
+        "l_name": {
+          "label": "Nom de famille"
+        },
+        "email": {
+          "label": "Adresse e-mail"
+        },
+        "phone_number": {
+          "label": "Numéro de téléphone"
+        },
+        "qualifications": {
+          "label": "Qualifications Éducatives",
+          "placeholder": "Veuillez indiquer vos qualifications récentes, votre parcours éducatif et toute certification ou formation pertinente"
+        },
+        "cta": "Soumettre la candidature",
+        "on_success": {
+          "title": "Candidature envoyée",
+          "description": "Merci d'avoir postulé pour ce programme. Nous vous contacterons bientôt."
+        }
+      }
+    },
+    "contact_us": {
+      "title": "Contactez-nous",
+      "suptitle": "Dites-nous quelque chose",
+      "subtitle": "Contactez-nous pour toute question, commentaire ou assistance. Nous sommes là pour vous aider !",
+      "form": {
+        "title": "Écrivez-nous",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        "f_name": {
+          "label": "Nom complet"
+        },
+        "email": {
+          "label": "Adresse e-mail"
+        },
+        "message": {
+          "label": "Votre message",
+          "placeholder": "Dites-nous ce que vous pensez"
+        },
+        "cta": "Soumettre",
+        "on_success": {
+          "title": "Message envoyé avec succès !",
+          "description": "Votre message a été envoyé avec succès et notre équipe en charge travaille pour vous répondre dès que possible. Merci de nous avoir contactés en effet.",
+          "cta": "Envoyer un autre message"
+        }
+      }
+    },
+    "blog": {
+      "tags": {
+        "latest_release": "Dernière sortie",
+        "from_newsletter": "De la newsletter"
+      },
+      "more_blogs": {
+        "title": "Tous les blogs",
+        "subtitle": "Tous les blogs de nos clients"
+      }
+    },
+    "gallery": {
+      "title": "Notre galerie",
+      "subtitle": "Visitez la collection d'images de hcakigali",
+      "suptitle": "Les Photos"
+    }
+  }
+}
